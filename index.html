@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <header class="navbar">
+        <div     id="baka" class="logo">HOTIFY</div>
+
+        <button class="home-btn">⌂</button>
+
+        <input type="text" class="search"
+               placeholder="What do you want to play?">
+
+        <nav class="nav-links">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <a href="#">Sign up</a>
+            <button class="login-btn">Log in</button>
+        </nav>
+    </header>
+
+    <div class="app-layout">
+
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+
+            <div class="library-header">
+                <h3>Your Library</h3>
+                <button>+ Create</button>
+            </div>
+
+            <div class="sidebar-card">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="sidebar-card">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="sidebar-footer">
+                <a href="#">Legal</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <button class="language-btn">◎ English</button>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Trending Songs -->
+            <section class="content-section">
+                <div class="section-header">
+                    <a href="playlist.html?type=playlist&name=Love%20Songs"
+   class="album-card">
+    <div class="album-cover album-3"></div>
+    <h4>DBL TAP </h4>
+    <p>Playlist</p>
+</a>
+                </div>
+
+                <div class="cards-row">
+
+                    <div class="song-card">
+                        <div class="song-cover cover-1"></div>
+                        <h4>Alfaaz</h4>
+                        <p>Hamza Malik, Zain Zohaib</p>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-cover cover-2"></div>
+                        <h4>Chalre Chalre Waal</h4>
+                        <p>Shanzy Sial</p>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-cover cover-3"></div>
+                        <h4>Meri Maa Ke Barabar Koi Nahi</h4>
+                        <p>Jubin Nautiyal, Payal Dev</p>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-cover cover-4"></div>
+                        <h4>Magale</h4>
+                        <p>Sai Abhyankkar, Harini</p>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-cover cover-5"></div>
+                        <h4>Pyara Saja Hai Tera Dwar</h4>
+                        <p>Lakhbir Singh Lakkha</p>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-cover cover-6"></div>
+                        <h4>Man Leke Aaya Mata Rani</h4>
+                        <p>Anuradha Paudwal</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Popular Artists -->
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Popular artists</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-row">
+
+                    <div class="artist-card">
+                        <a href="playlist.html?type=artist&name=Pritam"
+                   class="artist-card">
+                <div class="artist-circle artist-1"></div>
+                  <h4>Pritam</h4>
+                      <p>Artist</p>
+</a>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-circle artist-2"></div>
+                        <h4>A.R. Rahman</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                       <a href="playlist.html?type=artist&name=Pritam"
+   class="artist-card">
+    <div class="artist-circle artist-1"></div>
+    <h4>dhinchak pooja</h4>
+    <p>Artist</p>
+</a>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-circle artist-4"></div>
+                        <h4>Sachin-Jigar</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <a href="playlist.html?type=artist&name=Pritam"
+                       class="artist-card">
+                  <div class="artist-circle artist-1"></div>
+                     <h4>mc stan</h4>
+                     <p>Artist</p>
+</a>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-circle artist-6"></div>
+                        <h4>Atif Aslam</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-circle artist-7"></div>
+                        <h4>Anirudh Ravichander</h4>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Popular Albums -->
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Popular albums and singles</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-row">
+
+                    <div class="album-card">
+                        <div class="album-cover album-1"></div>
+                        <h4>Aashiqui</h4>
+                        <p>Popular album</p>
+                    </div>
+
+                    <div class="album-card">
+                        <div class="album-cover album-2"></div>
+                        <h4>Romantic Hits</h4>
+                        <p>Popular album</p>
+                    </div>
+
+                    <div class="album-card">
+                        <div class="album-cover album-3"></div>
+                        <h4>Love Songs</h4>
+                        <p>Popular album</p>
+                    </div>
+
+                    <div class="album-card">
+                        <div class="album-cover album-4"></div>
+                        <h4>Finding Hope</h4>
+                        <p>Popular album</p>
+                    </div>
+
+                    <div class="album-card">
+                        <div class="album-cover album-5"></div>
+                        <h4>Young G.O.A.T</h4>
+                        <p>Popular album</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Featured Charts -->
+            <section class="content-section charts-section">
+                <div class="section-header">
+                    <h2>Featured Charts</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-row">
+
+                    <div class="chart-card chart-1">
+                        <h2>Top Songs<br>Global</h2>
+                        <p>Weekly Music Charts</p>
+                    </div>
+
+                    <div class="chart-card chart-2">
+                        <h2>Top Songs<br>India</h2>
+                        <p>Weekly Music Charts</p>
+                    </div>
+
+                    <div class="chart-card chart-3">
+                        <h2>Top 50</h2>
+                        <p>GLOBAL</p>
+                    </div>
+
+                    <div class="chart-card chart-4">
+                        <h2>Top 50</h2>
+                        <p>INDIA</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="main-footer">
+
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Record</a>
+                </div>
+
+                <div>
+                    <h4>Communities</h4>
+                    <a href="#">For Artists</a>
+                    <a href="#">For Creators</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                </div>
+
+                <div>
+                    <h4>Useful links</h4>
+                    <a href="#">Support</a>
+                    <a href="#">Free Mobile App</a>
+                    <a href="#">Import your music</a>
+                </div>
+
+                <div>
+                    <h4>Music Player</h4>
+                    <a href="#">Free Version</a>
+                    <a href="#">Premium Version</a>
+                </div>
+
+            </footer>
+
+        </main>
+    </div>
+
+    <!-- Bottom Player Placeholder -->
+    <div class="player-bar">
+        <span>No song selected</span>
+        <div class="player-controls">
+            <button disabled>⏮</button>
+            <button disabled>▶</button>
+            <button disabled>⏭</button>
+        </div>
+        <span>00:00 ───────── 00:00</span>
+    </div>
+
+</body>
+</html>
+```

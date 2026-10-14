@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist | Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Same Navbar -->
+    <header class="navbar">
+        <div class="logo">♫</div>
+        <button class="home-btn" onclick="location.href='index.html'">⌂</button>
+
+        <input type="text" class="search"
+               placeholder="What do you want to play?">
+
+        <nav class="nav-links">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <a href="#">Sign up</a>
+            <button class="login-btn">Log in</button>
+        </nav>
+    </header>
+
+    <div class="app-layout">
+
+        <!-- Same Sidebar -->
+        <aside class="sidebar">
+
+            <div class="library-header">
+                <h3>Your Library</h3>
+                <button>+ Create</button>
+            </div>
+
+            <div class="sidebar-card">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="sidebar-card">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="sidebar-footer">
+                <a href="#">Legal</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <button class="language-btn">◎ English</button>
+        </aside>
+
+        <!-- Playlist Page -->
+        <main class="main-content playlist-page">
+
+            <!-- Playlist Header -->
+            <section class="playlist-hero">
+
+                <div class="playlist-cover">
+                    <span>♫</span>
+                    <h2 id="cover-title">LOVE<br>SONGS</h2>
+                </div>
+
+                <div class="playlist-info">
+                    <p class="playlist-type" id="playlist-type">
+                        Public Playlist
+                    </p>
+
+                    <h1 id="playlist-title">Love Songs</h1>
+
+                    <p class="playlist-description" id="playlist-description">
+                        Your favourite romantic songs in one place.
+                    </p>
+
+                    <p class="playlist-meta">
+                        <strong>♫ Music Player</strong>
+                        · 50 songs · About 3 hr
+                    </p>
+                </div>
+
+            </section>
+
+            <!-- Playlist Controls -->
+            <section class="playlist-controls">
+                <button class="big-play" aria-label="Play playlist"
+                        title="Play playlist">▶</button>
+                <button class="control-icon" title="Shuffle">⤨</button>
+                <button class="control-icon" title="Add to library">⊕</button>
+                <button class="control-icon" title="More options">•••</button>
+                <span class="list-label">List ☷</span>
+            </section>
+
+            <!-- Song Table -->
+            <section class="track-list">
+
+                <div class="track-header">
+                    <span>#</span>
+                    <span>Title</span>
+                    <span>Plays</span>
+                    <span>Album</span>
+                    <span>◷</span>
+                </div>
+
+                <div class="track-row">
+                    <span>1</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-1"></div>
+                        <div>
+                            <h4>Tum Hi Ho</h4>
+                            <p>Arijit Singh</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">4,830,877</span>
+                    <span class="track-album">Aashiqui 2</span>
+                    <span>4:22</span>
+                </div>
+
+                <div class="track-row">
+                    <span>2</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-2"></div>
+                        <div>
+                            <h4>Kesariya</h4>
+                            <p>Arijit Singh</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">4,527,380</span>
+                    <span class="track-album">Brahmastra</span>
+                    <span>4:28</span>
+                </div>
+
+                <div class="track-row">
+                    <span>3</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-3"></div>
+                        <div>
+                            <h4>Raabta</h4>
+                            <p>Arijit Singh, Pritam</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">3,595,078</span>
+                    <span class="track-album">Agent Vinod</span>
+                    <span>4:03</span>
+                </div>
+
+                <div class="track-row">
+                    <span>4</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-4"></div>
+                        <div>
+                            <h4>Hawayein</h4>
+                            <p>Arijit Singh, Pritam</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">3,462,076</span>
+                    <span class="track-album">Jab Harry Met Sejal</span>
+                    <span>4:50</span>
+                </div>
+
+                <div class="track-row">
+                    <span>5</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-5"></div>
+                        <div>
+                            <h4>Shayad</h4>
+                            <p>Arijit Singh</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">3,188,288</span>
+                    <span class="track-album">Love Aaj Kal</span>
+                    <span>4:07</span>
+                </div>
+
+                <div class="track-row">
+                    <span>6</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-6"></div>
+                        <div>
+                            <h4>Channa Mereya</h4>
+                            <p>Arijit Singh, Pritam</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">2,998,863</span>
+                    <span class="track-album">Ae Dil Hai Mushkil</span>
+                    <span>4:49</span>
+                </div>
+
+                <div class="track-row">
+                    <span>7</span>
+                    <div class="track-title">
+                        <div class="track-thumb thumb-7"></div>
+                        <div>
+                            <h4>Apna Bana Le</h4>
+                            <p>Arijit Singh, Sachin-Jigar</p>
+                        </div>
+                    </div>
+                    <span class="track-plays">2,793,617</span>
+                    <span class="track-album">Bhediya</span>
+                    <span>4:21</span>
+                </div>
+
+            </section>
+
+            <!-- Same Footer as Homepage -->
+            <footer class="main-footer">
+
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Record</a>
+                </div>
+
+                <div>
+                    <h4>Communities</h4>
+                    <a href="#">For Artists</a>
+                    <a href="#">For Creators</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                </div>
+
+                <div>
+                    <h4>Useful links</h4>
+                    <a href="#">Support</a>
+                    <a href="#">Free Mobile App</a>
+                    <a href="#">Import your music</a>
+                </div>
+
+                <div>
+                    <h4>Music Player</h4>
+                    <a href="#">Free Version</a>
+                    <a href="#">Premium Version</a>
+                </div>
+
+            </footer>
+
+        </main>
+    </div>
+
+    <!-- Bottom Player -->
+    <div class="player-bar">
+        <span>No song selected</span>
+        <div class="player-controls">
+            <button disabled>⏮</button>
+            <button disabled>▶</button>
+            <button disabled>⏭</button>
+        </div>
+        <span>00:00 ───────── 00:00</span>
+    </div>
+
+    <!-- Read selected item from the URL -->
+    <script>
+        const params = new URLSearchParams(window.location.search);
+
+        const type = params.get("type") || "playlist";
+        const name = params.get("name") || "Love Songs";
+
+        document.getElementById("playlist-title").textContent = name;
+
+        const coverTitle = document.getElementById("cover-title");
+        coverTitle.textContent = name.toUpperCase();
+
+        document.getElementById("playlist-type").textContent =
+            type === "artist" ? "Artist" :
+            type === "genre" ? "Music Genre" : "Public Playlist";
+
+        document.title = name + " | Music Player";
+
+        if (type === "artist") {
+            document.getElementById("playlist-description").textContent =
+                "Explore music by " + name + ".";
+        } else if (type === "genre") {
+            document.getElementById("playlist-description").textContent =
+                "Explore your favourite " + name + " music.";
+        } else {
+            document.getElementById("playlist-description").textContent =
+                "Your favourite songs in one place.";
+        }
+    </script>
+
+</body>
+</html>
